@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "陶芸",
+  title: "きりたん陶芸教室",
   description: "陶芸やろうぜ！陶芸！",
 };
 
