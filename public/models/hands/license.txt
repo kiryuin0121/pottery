@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hands
+* source:	https://sketchfab.com/3d-models/hands-260d75af076c42e1a2f2ff9a0c1957da
+* author:	Foxx Assets (https://sketchfab.com/FoxxAssets)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hands" (https://sketchfab.com/3d-models/hands-260d75af076c42e1a2f2ff9a0c1957da) by Foxx Assets (https://sketchfab.com/FoxxAssets) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
