@@ -20,7 +20,7 @@ const App = () => {
   const dataRef = useRef<HandTrackingData>({ hands: [], lastUpdated: 0 });
 
   return (
-    <div className="relative h-screen w-screen overflow-hidden">
+    <main className="relative h-screen w-screen overflow-hidden">
       {/* 3D レイヤー */}
       <Canvas shadows camera={{ position: [0, 0, 10], fov: 50 }}>
         <Scene dataRef={dataRef} />
@@ -28,7 +28,7 @@ const App = () => {
 
       {/* 2D レイヤー(Canvas の上に重ねる) */}
       <UI dataRef={dataRef} />
-    </div>
+    </main>
   );
 };
 

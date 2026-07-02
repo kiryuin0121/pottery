@@ -46,7 +46,7 @@ type GLTFResult = GLTF & {
   };
 };
 
-type HandProps = {
+type Props = {
   /** useHandTracking が書き込む共有 ref (読み取り専用に使う)。 */
   dataRef: RefObject<HandTrackingData>;
   /** "right": 右手モデルをそのまま / "left": X負スケールで鏡像化して左手に。 */
@@ -55,7 +55,7 @@ type HandProps = {
   maxCurlAngle?: number;
 };
 
-const Hand = ({ dataRef, side, maxCurlAngle = MAX_CURL_ANGLE }: HandProps) => {
+const Hand = ({ dataRef, side, maxCurlAngle = MAX_CURL_ANGLE }: Props) => {
   const isLeft = side === "left";
 
   const { scene } = useGLTF(MODEL_PATH);

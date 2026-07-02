@@ -5,7 +5,7 @@ import Webcam from "react-webcam";
 import { useHandTracking } from "@/hooks/useHandTracking";
 import type { HandTrackingData } from "@/types/hand";
 
-type UIProps = {
+type Props = {
   /** page.tsx と共有する検出結果コンテナ(ここが書き込み側)。 */
   dataRef: RefObject<HandTrackingData>;
 };
@@ -14,7 +14,7 @@ type UIProps = {
  * 2D(DOM)レイヤー。Webカメラ映像・設定パネル・検出ループの起動を担う。
  * 3D要素は含めない(Scene と責務分離する指定に従う)。
  */
-const UI = ({ dataRef }: UIProps) => {
+const UI = ({ dataRef }: Props) => {
   const webcamRef = useRef<Webcam>(null);
   // react-webcam 内部の video 要素を取り出して検出フックへ渡す。
   const videoRef = useRef<HTMLVideoElement | null>(null);

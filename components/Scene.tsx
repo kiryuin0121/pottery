@@ -58,7 +58,7 @@ const Scene = ({ dataRef }: Props) => {
       <Hand dataRef={dataRef} side="right" />
       <Hand dataRef={dataRef} side="left" />
 
-      {/* ジェスチャー連動エフェクト(青炎・稲妻) */}
+      {/* ジェスチャー連動エフェクト(稲妻) */}
       <EffectsController dataRef={dataRef} />
 
       {/* Bloom / Vignette などのポストプロセス */}
