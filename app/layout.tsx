@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "きりたん陶芸教室",
-  description: "陶芸やろうぜ！陶芸！",
+  title: "専二病App",
+  description: "専二病App",
 };
 
 export default function RootLayout({

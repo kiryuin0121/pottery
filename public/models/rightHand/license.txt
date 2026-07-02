@@ -1,0 +1,8 @@
+Model Information:
+* title:	Rigged hand - Game model
+* source:	https://sketchfab.com/3d-models/rigged-hand-game-model-fc296f911fcd4da9ae8542805504fd60
+* author:	Lorenzo Drago (https://sketchfab.com/LorenzoDrago)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
